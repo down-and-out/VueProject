@@ -2,10 +2,10 @@
 export interface PersonInter{
     id:string,
     name:string,
-    age:number
+    age:number,
+    // x?:number,
 }
 
 // 一个自定义类型
-export type Persons = Array<PersonInter>
-
-export type Persons2 = PersonInter[]
+// export type Persons = Array<PersonInter>
+export type Persons = PersonInter[]
